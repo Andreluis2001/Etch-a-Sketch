@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: auto;
+}
+
+button{
+    margin-bottom: 50px;
+}
+
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 800px;
+    min-height: 800px;
+    border: 0px;
+    margin: 0px;
+}
+
+.box{
+    display: inline;
+    min-width: 40px;
+    min-height: 40px;
+    border: 1px solid black
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 50%;
+}
